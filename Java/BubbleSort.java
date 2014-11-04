@@ -14,7 +14,7 @@ class BubbleSort {
         int n, i, j, tmp;
         Scanner in = new Scanner( System.in );
 
-        System.out.println ( "Select number of integers to sort" );
+        System.out.println ( "Select number of integers to sort:" );
         n = in.nextInt ();
 
         int array[] = new int[n];
@@ -34,7 +34,7 @@ class BubbleSort {
             }
         }
 
-        System.out.println("Sorted list of numbers");
+        System.out.println("Sorted list of numbers:");
         System.out.println(Arrays.toString(array));
     }
 
