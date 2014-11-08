@@ -1,4 +1,22 @@
 #! /usr/bin/python2.7
+"""
+#=============================================================================#
+
+FILE            : InsertionSort.py 
+
+DESCRIPTION     : Implementation of Insertion Sort in Python
+
+COMPLEXITY      : Best O(n) | Average O(n^2) | Worst O(n^2)
+NOTES           : 
+AUTHOR(s)       : Spyros Lalos (spyroslal@gmail.com)
+CREATED         : Nov 08 22:42:26 CEST 2014
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+#=============================================================================#
+"""
 
 def InsertionSort( mlist ):
 	
