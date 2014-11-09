@@ -10,6 +10,7 @@ int main (void) {
 
     int size;
     int *array;
+    int i, j, k, tmp;
     srand ( time(NULL) );
     cout << "Please give the size of the array to construct..." << endl;
     cin >> size ;
@@ -21,10 +22,18 @@ int main (void) {
         array[i] = rand()%20;
     }
     // Bubble Sort
-    for () {
+    for ( i = 0; i < size; i++) {
+
+        for ( k = 0; k < (size - i); k++ ) {
+            if ( array[k] > array[k+1] ) {
+                tmp = array[k+1];
+                array[k+1] = array[k];
+                array[k] = tmp;
+            }    
+        }
         //print array
-        for ( int i = 0; i < size; i++ ) {
-            cout << array[i] << " ";
+        for ( j = 0; j < size; j++ ) {
+            cout << array[j] << " ";
         }
         cout << endl;
 
