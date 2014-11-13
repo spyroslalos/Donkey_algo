@@ -1,4 +1,22 @@
 #! /usr/bin/python2.7
+"""
+#=============================================================================#
+
+FILE            : MergeSort.py 
+
+DESCRIPTION     : Implementation of Recursive MergeSort in Python
+
+COMPLEXITY      : O(nlogn)
+NOTES           : 
+AUTHOR(s)       : Spyros Lalos (spyroslal@gmail.com)
+CREATED         : Nov 13 23:34:22 CEST 2014
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+#=============================================================================#
+"""
 
 def MergeSort ( slist ):
 
@@ -33,6 +51,7 @@ def MergeSort ( slist ):
             j = j + 1
             c = c + 1
 
+# better replace with random generated array
 slist = [34,12,2,7,27,1,11,3]
-MergeSort (slist)
-print slist
+print MergeSort (slist)
+
