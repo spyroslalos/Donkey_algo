@@ -17,6 +17,7 @@ CREATED         : Nov 13 23:34:22 CEST 2014
 
 #=============================================================================#
 """
+import random
 
 def MergeSort ( slist ):
 
@@ -50,8 +51,9 @@ def MergeSort ( slist ):
             slist[c] = rpart[j]
             j = j + 1
             c = c + 1
+    return slist
 
 # better replace with random generated array
-slist = [34,12,2,7,27,1,11,3]
+slist = [ random.randint(0, 100) for c in range(10) ]
 print MergeSort (slist)
 
