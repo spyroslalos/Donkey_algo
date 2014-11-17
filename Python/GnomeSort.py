@@ -17,7 +17,7 @@ CREATED         : Nov 16 ##:##:## CEST 2014
 
 #=============================================================================#
 """
-
+import random
 
 def GnomeSort ( slist ):
     tmp = 0
@@ -33,6 +33,6 @@ def GnomeSort ( slist ):
 
     return slist
 
-# better replace with random generated array
-slist = [34,12,2,7,27,1,11,3]
+# Random generated list
+slist = [ random.randint(0, 100) for c in range(10) ]
 print GnomeSort (slist)
