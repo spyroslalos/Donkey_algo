@@ -25,6 +25,5 @@ def BubbleSort (slist):
         for j in range ( len(slist) -i ):
 
 
-# better replace with random generated array
 slist = [ random.randint(0, 100) for c in range(10) ]
 print BubbleSort (slist)
